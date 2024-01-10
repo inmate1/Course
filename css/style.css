@@ -1,3 +1,6 @@
+@import url(_title.css);
+@import url(_slider.css);
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -20,29 +23,12 @@
   display: block;
   margin: 0 auto;
 }
-.logo .logo_text {
-  color: #fff;
-  font-family: Roboto;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 24px;
-  text-transform: uppercase;
-  text-align: center;
-}
 
 h1 {
   margin-top: 53px;
 }
 /* Создать свой сайт на WordPress */
-.title {
-  color: #f9bf3b;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 41px;
-  font-weight: 900;
-  line-height: 41px;
-  text-transform: uppercase;
-}
+
 /* Куда сложнее сделать это правильно! */
 h2.title {
   margin-top: 20.5px;
@@ -256,7 +242,7 @@ h2.title {
 }
 
 .gift {
-  height: 631px;
+  min-height: 631px;
   padding: 88px 0 88px 0;
   background-color: #efefef;
 }
@@ -290,4 +276,24 @@ h2.title {
   line-height: 24px;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.veb {
+  min-height: 631px;
+  padding: 88px 0 88px 0;
+  background-color: #efefef;
+}
+
+.veb .conteiner {
+  height: 433px;
+
+  display: flex;
+  justify-content: center;
+}
+.veb_img {
+  /* box-sizing: border-box; */
+}
+
+.veb_text {
+  text-align: center;
 }

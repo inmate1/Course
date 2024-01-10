@@ -1,0 +1,19 @@
+.logo .logo_text {
+  color: #c94d4d;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title {
+  color: #f9bf3b;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 41px;
+  font-weight: 900;
+  line-height: 41px;
+  text-transform: uppercase;
+}
